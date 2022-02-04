@@ -1,0 +1,92 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #22394D;
+}
+
+
+#content {
+  width: 95%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #95C0E5;
+  color: white;
+  height: 1140px;
+  margin-left: 30px;
+}
+
+h2 {
+  color: #474A59;
+}
+/*Nav Bar*/
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: #474A59;
+  height: 150px;
+}
+
+nav a {
+  color: #474A59;
+  text-decoration: none;
+  height: 20px;
+}
+
+#lab1:hover {
+  background-color: grey;
+
+}
+
+#lab2:hover {
+  background-color: grey;
+
+}
+
+#lab3:hover {
+  background-color: grey;
+
+}
+
+#instagram a {
+  text-decoration: none;
+  color: black;
+}
+
+#instagram a:hover {
+  text-decoration: underline;
+}
+
+
+img {
+  height: 300px;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+#lab1 {
+background-color: #95C0E5;
+width: 50px;
+height: 30px;
+margin: 20px;
+border-radius: 4px;
+}
+
+#lab2 {
+  background-color: #95C0E5;
+  width: 50px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+#lab3 {
+  background-color: #95C0E5;
+  width: 50px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
