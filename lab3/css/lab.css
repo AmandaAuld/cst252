@@ -21,6 +21,8 @@ img {
   position: relative;
   left: 800px;
   bottom: 300px;
+  width: 600px;
+  height: auto;
 }
 
 body {
@@ -30,11 +32,11 @@ body {
 #lab3fl {
   position: relative;
   left: 1000px;
-  bottom: 525px;
+  bottom: 275px;
 }
 
 #cst252 {
   position: relative;
   left: 1000px;
-  bottom: 105px;
+  bottom: 350px;
 }
