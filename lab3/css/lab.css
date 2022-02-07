@@ -1,0 +1,40 @@
+#description {
+  float: left;
+  width: 600px;
+  margin-left: 20px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+
+
+#file-ss {
+  position: relative;
+  left: 800px;
+  bottom: 350px;
+}
+
+#l3-ss {
+  position: relative;
+  left: 800px;
+  bottom: 300px;
+}
+
+body {
+  margin-left: 20px;
+}
+
+#lab3fl {
+  position: relative;
+  left: 1000px;
+  bottom: 525px;
+}
+
+#cst252 {
+  position: relative;
+  left: 1000px;
+  bottom: 105px;
+}
