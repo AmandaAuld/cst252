@@ -7,11 +7,11 @@ myTransport = ["Ford Focus", "Monterey-Salinas Transit", "Walking", "Uber"
 ];
 
 myMainRide = {
-  make : "Ford",
-  model : "Focus",
-  color : "grey",
-  year : 2013,
-  age : function() {
+  make: "Ford",
+  model: "Focus",
+  color: "grey",
+  year: 2013,
+  age: function() {
     return 2022 - age;
   }
 }
