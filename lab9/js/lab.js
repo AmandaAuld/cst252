@@ -10,5 +10,6 @@ targetEl.appendChild(newEl);
 
 newEl.innerhtml = "Click me";
 newEl.style.backgroundColor = "red";
-newEl.style.color = "red";
+newEl.style.color = "black";
 newEl.style.fontSize = "100px";
+newEl.style.width = "30px";
