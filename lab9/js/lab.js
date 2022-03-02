@@ -8,8 +8,8 @@ var newEl = document.createElement("button");
 
 targetEl.appendChild(newEl);
 
-newEl.innerhtml = "Click me";
+newEl.innerHTML = "Click me";
 newEl.style.backgroundColor = "red";
 newEl.style.color = "black";
 newEl.style.fontSize = "100px";
-newEl.style.width = "30px";
+newEl.style.width = "200px";
