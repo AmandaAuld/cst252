@@ -2,13 +2,27 @@
 //date: 03.01.2022
 //public domain
 
+//first button
 var targetEl = document.getElementById("output");
 
-var newEl = document.createElement("button");
+var oneEl = document.createElement("button");
+oneEl.id = "redbutton"
 
-targetEl.appendChild(newEl);
+targetEl.appendChild(oneEl);
 
-newEl.innerHTML = "Click me";
-newEl.style.backgroundColor = "red";
-newEl.style.color = "black";
-newEl.style.fontSize = "100px";
+oneEl.innerHTML = "Click me";
+oneEl.style.backgroundColor = "red";
+oneEl.style.color = "black";
+oneEl.style.fontSize = "100px";
+
+
+//second button
+var twoEl = document.createElement("button");
+twoEl.id = "bluebutton"
+
+targetEl.appendChild(twoEl);
+
+twoEl.innerHTML = "Click me";
+twoEl.style.backgroundColor = "blue";
+twoEl.style.color = "black";
+twoEl.style.fontSize = "100px";
