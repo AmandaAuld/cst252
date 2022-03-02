@@ -12,4 +12,3 @@ newEl.innerHTML = "Click me";
 newEl.style.backgroundColor = "red";
 newEl.style.color = "black";
 newEl.style.fontSize = "100px";
-newEl.style.width = "200px";
