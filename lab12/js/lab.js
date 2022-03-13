@@ -6,7 +6,7 @@
 $("#challenge-button").click(function(){
 //remove the challenge 2 class
   $("#challenges").removeClass("challenge2");
-//toggle challenge 1 for color
+//toggle challenge 1 for css change
   $("#challenges").toggleClass("challenge1");
 });
 
@@ -14,7 +14,7 @@ $("#challenge-button").click(function(){
 $("#problem-button").click(function(){
   //remove the problem 2 class
   $("#problem").removeClass("problem2");
-  //toggle problem 1 for color
+  //toggle problem 1 for css change
   $("#problem").toggleClass("problem1");
 });
 
@@ -22,7 +22,7 @@ $("#problem-button").click(function(){
 $("#results-button").click(function() {
 //remove the result 2 class
   $("#results").removeClass("result2");
-//toggle the result 1 class for color
+//toggle the result 1 class for css change
   $("#results").toggleClass("result1");
 
 });
