@@ -1,34 +1,40 @@
-//author: amanda auld
-//date: 03.06.2022
-//public domain
+// date: 04/01/2022
+// author: amanda auld
+// public domain
+//holyneotrin.github.io used as reference
 
+var button = document.getElementById('my-button');
 
-function reorderUserName(word) {
-  var wordArray = word.toLowerCase().split('');
-  var newArray = shuffleArray(wordArray);
-  return newArray.join('');
+function sortText(text) {
+	return text.split('').sort().reverse().join('');
 }
 
+// event handler that listens to button click
+button.addEventListener('click', function() {
+	// When the button is pushed, prompt the user to input their name with the prompt() function.
+  //var name = prompt("What's your name?");
+  // find the value of the input field
+  var inputEl = document.getElementById('input');
+  var name = inputEl.value;
+  // run through sort
+  var newName = sortText(name);
 
-function toTitleCase(str) {
-  return str.replace(
-    /\w\S*/g,
-    function(txt) {
-      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    }
-  );
-}
+	function randomizeName(userName) {
+	    var nameArray = userName.toLowerCase().split("");
+	    console.log("nameArray =", nameArray);
+	    var shuffledArray = shuffleArray(nameArray);
+	    console.log("shuffledArray =", shuffledArray);
+	    var shuffledString = shuffledArray.join("");
+	    var newName = toTitleCase(shuffledString);
+	    return newName;
+	}
 
-
-buttonEl = document.getElementById("my-button");
-console.log("button element:", buttonEl);
-
-inputEl = document.getElementById("user-name");
-console.log("input element:", inputEl);
-
-outputEl = document.getElementById("output");
-console.log("output element:", outputEl);
-
-buttonEl.addEventListener("click", function(){
-
-var userName = inputEl.value;
+  // Use this input to change the text from ‘Hello!’ to ‘Hello’ + the user’s name
+  var newText = "Hello, " + newName + "!";
+  // find the element!
+	var heading = document.getElementById('greet');
+  // modify the heading text
+  heading.innerHTML = newText;
+  // change output
+  document.getElementById('output').innerHTML = newText;
+});
